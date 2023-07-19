@@ -40,7 +40,7 @@ html{
 }
 .section-1{
     display: block;
-    width:70%;
+    width:80%;
     padding-right: 20px;
 }
 .section-1 .introduction{
@@ -59,7 +59,7 @@ html{
     font-weight:600;
 }
 .section-2{
-    width: 30%;
+    width:20%;
     background-color:hsl(240, 100%, 5%);
     color: #fff;
     display: block;
@@ -93,7 +93,10 @@ html{
 @media only screen and (min-width :1000px) {
     
     .sidenav{
-        display: none;;
+        display: none;
+}
+    .burger-icon{
+        display: none;
 }
 }
 @media only screen and (max-width: 475px){
