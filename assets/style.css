@@ -2,7 +2,9 @@ html{
     margin:0 25px 25px 25px;
     font-size: 15px;
     color: hsl(236, 13%, 42%);
-    overflow: hidden;
+    font-family: 'EB Garamond', serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 .topnav {
     overflow: hidden;
@@ -82,4 +84,7 @@ html{
     margin-top: 0px;
     padding-left:15px;
     line-height:10px;
+}
+.card2 span{
+    line-height:25px;
 }
