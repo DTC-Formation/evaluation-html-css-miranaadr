@@ -1,0 +1,53 @@
+html{
+    margin:25px;
+}
+.topnav {
+    background-color: #333;
+    color:#ddd;
+    overflow: hidden;
+}
+ .topnav span{
+    font-size:50px;
+ }
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: red;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.content{
+    display:flex;
+}
+.section-1{
+    display: block;
+    width: 70%;
+    background-color:brown;
+}
+.section-1 .introduction{
+    display: flex;
+}
+.section-2{
+    width: 30%;
+    background-color:green;
+}
+
+.item{
+    display: flex;
+}
